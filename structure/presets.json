@@ -1,0 +1,61 @@
+{
+    "accounts": {
+        "types": [
+            {
+                "accounttype": "Pharmacy",
+                "uid": "a8e08c04-bfb7-4539-b70c-1110b138afdc"
+            },
+            {
+                "accounttype": "Store"
+            }
+        ],
+        "classes": [
+            {
+                "class": "AB",
+                "uid": "f2af7c79-508b-49f9-a753-d62bca09677f"
+            }
+        ]
+    },
+    "customers": {
+        "titles": [
+            {
+                "title": "General Practice",
+                "uid": "c242b20b-3eb8-4c9e-b27f-f36b6bf09350"
+            }
+        ],
+        "classes": [
+            {
+                "class": "***",
+                "uid": "c7869a71-e5fe-4c19-a59e-b8bfac0349ca"
+            }
+        ]
+    },
+    "colleagues": {
+        "titles": [
+            {
+                "title": "Sales Manager",
+                "uid": "327cce54-eb1c-4392-8df0-b7e58ec46663"
+            }
+        ],
+        "classes": [
+            {
+                "class": "BB",
+                "uid": "56ed9e3d-f5c5-422b-afeb-ad46c6450cc9"
+            }
+        ]
+    },
+    "tasktypes": [
+        {
+            "tasktype": "Personal",
+            "indicator": "Red",
+            "uid": "f4115f75-8dc5-4b94-a87c-4a882511a65b"
+        }
+    ],
+    "prices": [
+        {
+            "name": "WS",
+            "currency": "Dirhams",
+            "uid": "f06cfa72-765a-4bb0-8b65-42ac9f6af9b3"
+        }
+    ]
+}

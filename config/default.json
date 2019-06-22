@@ -1,0 +1,8 @@
+{
+    "mongoURI": "mongodb+srv://ahmed_smae:salesledgerpassword@basic-cluster-jxkjd.mongodb.net/test",
+    "jwtSecret": "thisissalesledgertwo",
+    "tokenExpiration": "7 days",
+    "TypeAccount": "ACCOUNT_TYPE",
+    "TypeCustomer": "CUSTOMER_TYPE",
+    "TypeColleague": "COLLEAGUE_TYPE"
+}

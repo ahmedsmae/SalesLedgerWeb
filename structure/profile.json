@@ -1,0 +1,42 @@
+{
+    "name": "Ahmed Afifi",
+    "email": "ahmed_smae@yahoo.com",
+    "password": "1234567",
+    "contacts": {
+        "public": false,
+        "list": ["0502138893", "063334444"]
+    },
+    "avatar": "",
+    "skills": ["HTML", "CSS", "JS", "REACT"],
+    "bio": "I am a programmer",
+    "experience": [
+        {
+            "title": "Medical Representative",
+            "company": "Spimaco",
+            "location": "UAE, Dubai",
+            "from": "12-03-2013",
+            "to": "",
+            "current": true,
+            "description": "Sales and Marketing"
+        }
+    ],
+    "education": [
+        {
+            "school": "school",
+            "location": "location",
+            "degree": "degree",
+            "fieldofstudy": "field",
+            "from": "12-03-2010",
+            "to": "",
+            "current": true,
+            "description": "description"
+        }
+    ],
+    "social": {
+        "linkedin": "linkedin URL",
+        "twitter": "twitter URL",
+        "facebook": "facebook URL",
+        "instagram": "instagram URL",
+        "youtube": "youtube URL"
+    }
+}

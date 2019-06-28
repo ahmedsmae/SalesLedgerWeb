@@ -62,6 +62,19 @@ router.post(
     }
 );
 
+// @route    GET api/users/auth
+// @desc     Test route - to authenticate the user every time before any func
+// @access   Public
+router.get('/auth', auth, async (req, res) => {
+    try {
+        const user = await User.findById(req.user.id).select('-password');
+        res.json(user);
+    } catch (err) {
+        console.error(err.message);
+        res.status(500).send('Server Error');
+    }
+});
+
 // @route    POST api/users/login
 // @desc     Login user
 // @access   Public

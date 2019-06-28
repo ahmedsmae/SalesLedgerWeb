@@ -8,15 +8,15 @@ body {
     opacity: 0.9;
 }
 
-.back-img {
-    background: url(./img/landing.jpg);
+#home-section {
+    background: url(../img/landing.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     min-height: 100vh;
 }
 
-.dark-overlay {
+#home-section .dark-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -25,17 +25,26 @@ body {
     background: rgba(0, 0, 0, 0.8);
 }
 
-.padding-nav {
-    padding-top: 80px;
+#home-section .home-inner {
+    padding-top: 150px;
 }
 
-.card-form {
+#home-section .card-form {
     opacity: 0.8;
 }
 
-.fas {
+#home-section .fas,
+#create-section .fas {
     color: #008ed6;
     background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#explore-section .fas,
+#share-section .fas {
+    background: #333;
+    color: #fff;
     padding: 5px;
     border-radius: 5px;
 }
